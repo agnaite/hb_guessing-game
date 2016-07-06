@@ -1,2 +1,3 @@
 # Put your code here
-print "Hi, player!"
+name = raw_input("Hi! What's your name? ")
+print "Hi, %s" % name
